@@ -13,8 +13,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<Home />} />
-        <Route path="cocktail/id" element={<SingleCocktail />} />
+        <Route path="about" element={<About />} />
+        <Route path="cocktail/:id" element={<SingleCocktail />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
